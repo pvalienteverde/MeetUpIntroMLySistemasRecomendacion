@@ -3,8 +3,8 @@
 Documentacion para el meetup de Reddadix Weekend: Introduccion a Machine Learning y Sistemas de Recomendacion en python.
 
 La charla constará de dos partes:
-1. **Introduccion basica a Machine Learning utilizando sklearn:** Un breve repaso sobre los principales estimadores que nos provee sklearn.
-2. **Sistemas de recomendacion:**  Mostraremos como se pueden realizar los sistemas de recomendación aplicando tanto algoritmo heuristicos como machine learning
+* **Introduccion basica a Machine Learning utilizando sklearn:** Un breve repaso sobre los principales estimadores que nos provee sklearn.
+* **Sistemas de recomendacion:**  Mostraremos como se pueden realizar los sistemas de recomendación aplicando tanto algoritmo heuristicos como machine learning
 
 ## Instalación de las dependencia utilizadas
 Se ha usado las distribuciones facilitadas por el sistema, a continuación se describe  la preparación del entorno (distribución Fedora)

@@ -18,7 +18,7 @@ Es decir:
 
 ```bash
 sudo dnf install python3-matplotlib python3-scipy python3-scikit-learn python3-pandas python3-pip python3-ipython-notebook
-sudo pip3 install py4j bokeh
+sudo pip3 install py4j seaborn nltk
 ```
 - Ahora instalamos la última distribución de spark
 ```bash

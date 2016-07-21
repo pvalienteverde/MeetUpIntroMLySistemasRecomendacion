@@ -26,4 +26,4 @@ class ContentBased(object):
 def mostrar_pesos_tags(vector,vectorizacion,descripcion = 'peso',numero=8):
     resultado=pd.DataFrame(data={descripcion:np.transpose(vector.toarray()[0])},index=vectorizacion.get_feature_names())
     resultado.index.name='tag_'+descripcion
-    return resultado.sort_values([descripcion],ascending=[0]).head(numero)
+    return resultado.sort([descripcion],ascending=[0]).head(numero)

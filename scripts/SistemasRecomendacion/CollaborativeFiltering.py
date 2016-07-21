@@ -66,13 +66,17 @@ class ModelBasedALS(object):
         """
         Devuelve el top de productos recomendados para el usuario
         """
-        return self.prediccion.loc[user].sort_values(ascending=False).iloc[:n]
+        usuario=self.prediccion.loc[user]
+        usuario.sort(ascending=False)
+        return usuario.iloc[:n]
     
     def recommendUsers(self,product:int,n:int=3):
         """
         Devuelve el top de los usuarios de un producto
         """
-        return self.prediccion.loc[:,product].sort_values(ascending=False).iloc[:n]
+        productos=self.prediccion.loc[:,product]
+        productos.sort(ascending=False)        
+        return productos.iloc[:n]
         
     @staticmethod
     def toArray(datos):
